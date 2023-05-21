@@ -1,0 +1,24 @@
+.topbarModal {
+  position: absolute;
+  padding: 5px;
+  top: 60px;
+  right: 5px;
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 15px -9px #000000;
+  box-shadow: 1px 3px 15px -9px #000000;
+  width: 120px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+}
+
+.topbarModalItem {
+  padding: 5px 0 5px 5px;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

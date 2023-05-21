@@ -1,0 +1,337 @@
+.profileContainer {
+  display: flex;
+}
+
+.sidebar {
+  flex: 3.75;
+}
+
+.center {
+  flex: 4.5;
+}
+
+.sidebar {
+  flex: 3.75;
+}
+
+.imgContainer {
+  height: 280px;
+  position: relative;
+}
+
+.profileCoverImg {
+  vertical-align: bottom;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.profilePictureContainer {
+  position: absolute;
+  left: 20px;
+  top: 190px;
+}
+.profileUserImgContainer {
+  position: relative;
+}
+
+.profileUserImg {
+  height: 80px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 111;
+}
+
+.changePPIcon {
+  cursor: pointer;
+}
+
+.profileInfo {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pButtonContainer {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.pButton {
+  font-size: 0.9rem;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: #efefef;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pButton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pButtonMessage {
+  background-color: #e4405f;
+  color: white;
+}
+
+.profiletop {
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.pButtonMessage:hover {
+  background-color: #e4405f;
+}
+
+.profileUsername {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.profileBio {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.moreInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 0 5px 0;
+}
+
+.moreInfoItem {
+  display: flex;
+  align-items: center;
+}
+
+.moreInfoItemKey {
+  margin-right: 6px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+}
+
+.icon {
+  font-size: 1.2rem !important;
+  margin-right: 5px;
+}
+
+.followButton {
+  padding: 6px 25px;
+  border: 1px solid white;
+  background-color: #87c1ff;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.unfollowButton {
+  padding: 6px 25px;
+  border: 1px solid white;
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.editProfileButton {
+  padding: 6px 25px;
+  border: 1px solid white;
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.changeIconSection {
+  position: absolute;
+  right: 0;
+  top: 59px;
+}
+
+.modalCloseButtonSection {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.closeButton {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.overlay {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.ppImg {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.ppImgContainer {
+  margin-top: 10px;
+  padding: 0 20px 20px 20px;
+  position: relative;
+}
+
+.ppCancelImg {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+}
+.modalPPWrapper {
+  padding: 0 18px 45px 18px;
+}
+
+.mediaIcon {
+  margin-right: 7px;
+}
+
+.modalPPOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ChangePPModal {
+  width: 600px;
+  background-color: white;
+  position: fixed;
+  z-index: 2222;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.closeButton {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.modalCloseButtonSection {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.modalButtonSection {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  gap: 10px;
+}
+
+.modalButton {
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.cancelButton {
+  background-color: azure;
+  color: black;
+}
+
+.saveButton {
+  background-color: #6495ed;
+  color: white !important;
+  width: 100px;
+}
+
+.friendsOptionModal {
+  position: absolute;
+  padding: 5px;
+  top: 46px;
+  left: 0;
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 15px -9px #000000;
+  box-shadow: 1px 3px 15px -9px #000000;
+  width: 120px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+}
+
+.friendsOptionModalItem {
+  padding: 5px 0 5px 5px;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.friendsOptionModalItem:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.friendRequestWrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.friendRequestWrapper > span {
+  font-weight: 500;
+}
+
+.pButtonCancel {
+  background-color: #e4405f;
+  color: white;
+}
+
+.pButtonCancel:hover {
+  background-color: #e4405f;
+}

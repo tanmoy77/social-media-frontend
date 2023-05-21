@@ -1,0 +1,33 @@
+.feed {
+  flex: 4.5;
+}
+
+.feedWrapper {
+  padding: 18px 0;
+}
+
+.loading-bar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  margin-top: 40px;
+}
+
+.loadingGif {
+  color: lightgray !important;
+}
+
+.feedSpan {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 500;
+  background-color: white;
+}
+
+.feedSpan > p {
+  width: fit-content;
+  border-bottom: 2px solid #e4405f;
+  padding: 10px 6px;
+}

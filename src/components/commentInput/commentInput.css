@@ -1,0 +1,9 @@
+.commentsTopInputWrapper {
+  border: 0.2px solid lightgray !important;
+}
+
+.commentsTopInput {
+  color: rgb(78, 75, 75) !important;
+  resize: none;
+  font-size: 0.9rem;
+}

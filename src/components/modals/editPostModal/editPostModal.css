@@ -1,0 +1,85 @@
+.editCommentModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  -webkit-animation: fade 2s linear;
+  animation: fade 2s linear;
+}
+
+.editCommentModalContainer {
+  background-color: white;
+  height: 140px;
+  width: fit-content;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.editCommentText {
+  resize: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.editCommentText:focus {
+  outline: none;
+}
+
+/* .editCommentTopSection {
+    margin: 0 5px 0 5px;
+  } */
+
+.editCommentTopSection > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.editOptionButtons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.editOptionButtons > button {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem !important;
+}
+
+.editOptionButtons > button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cancel {
+  background-color: #e4405f !important;
+  color: white;
+}

@@ -1,0 +1,43 @@
+.delCommentModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.delCommentModalContainer {
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionButtons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.optionButtons > button {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.optionButtons > button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

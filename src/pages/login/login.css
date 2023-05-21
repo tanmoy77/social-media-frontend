@@ -1,0 +1,76 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.loginWrapper {
+  min-width: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.loginWrapper > h3 {
+  font-size: 1.4rem;
+  margin: 10px 0 20px 0;
+}
+
+.loginForm {
+  width: 90%;
+  margin: 10px 0;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  gap: 4px;
+}
+
+.formItem > span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.formItem > input {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  background-color: white;
+}
+
+.formItem > input:focus {
+  outline: none;
+  background-color: white;
+}
+
+.submitButton {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 5px 0;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 5px;
+  background-color: #8b0000;
+  color: white;
+}
+
+.spanText {
+  margin-top: 15px;
+}

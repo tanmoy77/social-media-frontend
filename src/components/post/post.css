@@ -1,0 +1,276 @@
+.post {
+  width: 100%;
+  /* -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68); */
+  margin-bottom: 24px;
+  background-color: white;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postTopRight {
+  position: relative;
+}
+
+.postOptionModal {
+  position: absolute;
+  padding: 5px;
+  top: 30px;
+  right: 5px;
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 15px -9px #000000;
+  box-shadow: 1px 3px 15px -9px #000000;
+  width: 120px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+}
+
+.postOptionModalItem {
+  padding: 5px 0 5px 5px;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.postOptionModalItem:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUserName {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 2px;
+}
+
+.postOptionIcon {
+  color: lightgray !important;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.postOptionIcon:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.postCenter {
+  margin-top: 12px;
+}
+
+.postText {
+  margin-bottom: 15px;
+}
+
+.postImg {
+  width: 100%;
+  max-height: 460px;
+  object-fit: contain;
+  /* margin-top: 15px; */
+}
+
+/* post-bottom */
+
+.postBottom {
+  margin-top: 0;
+}
+
+.postBottomLabelSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.postReactions {
+  display: flex;
+  margin-right: 5px;
+}
+
+.postReactionItemLove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid white;
+}
+
+.postReactionItemDislike {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #8b0000;
+}
+
+.postReactionIcon {
+  font-size: 15px !important;
+  cursor: pointer;
+}
+
+.reactedIcon {
+  font-size: 21px !important;
+}
+
+.postReactionLabel {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* hr */
+.postHr {
+  margin: 15px 0 5px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* post-bottom-right */
+.postBottomRight {
+  margin-top: -5px;
+}
+
+.postComment {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.postBottomButtonSection {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.commentsNumberSpan {
+  margin-right: 4px;
+}
+
+.postBottomButton {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.postBottomButtonItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postBottomButtonItem > button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  margin-right: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postBottomButton > button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postBottomButtonItem > span {
+  font-size: 0.9rem;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.postBottomButton > button > span {
+  margin-left: 5px;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.postBottomIcon {
+  font-size: 22px !important;
+  cursor: pointer;
+}
+
+.postBottomCommentSection {
+  /* margin-top: 5px; */
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* .allComments {
+  overflow-y: auto;
+  max-height: 500px;
+} */
+
+#portal {
+  position: relative;
+  top: 0;
+}
+
+.postIconLove {
+  color: #fd1d1d;
+  font-size: 22px !important;
+}
+
+.postIconDislike {
+  color: black;
+  font-size: 22px !important;
+}
+
+.postIconOutlined {
+  color: gray;
+  margin-right: 5px;
+}
+
+.loadingGif {
+  color: lightgray !important;
+}
